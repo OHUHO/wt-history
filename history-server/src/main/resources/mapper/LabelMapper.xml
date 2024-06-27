@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.history.mapper.LabelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.history.entity.Label">
+        <id column="label_id" property="labelId" />
+        <result column="label_name" property="labelName" />
+        <result column="dynasty_id" property="dynastyId" />
+        <result column="is_alive" property="isAlive" />
+        <result column="is_delete" property="isDelete" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        label_id, label_name, dynasty_id, is_alive, is_delete, create_time
+    </sql>
+
+</mapper>

@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略编译生成的文件和目录
+build/
+.gradle/
+
+# 忽略IDE生成的文件和目录
+.idea/
+*.iml
+
+# 忽略依赖管理工具生成的文件和目录
+lib/
+
+# 忽略日志文件和临时文件
+*.tmp
+*.temp
+
+*.build
+*.out
+./gp-logs
+*/out/
+# 忽略小程序
+*/project.config.json

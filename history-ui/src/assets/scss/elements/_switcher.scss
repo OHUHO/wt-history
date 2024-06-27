@@ -1,0 +1,76 @@
+/*--------------------------
+    主题切换按钮样式
+----------------------------*/
+.my_switcher ul li a img.dark-icon {
+  display: none;
+  filter: brightness(100);
+}
+
+.active-light-mode .my_switcher ul li a img.dark-icon {
+  display: block;
+}
+
+.active-light-mode .my_switcher ul li a img.light-icon {
+  display: none;
+}
+
+.my_switcher {
+  border: 0 none;
+  padding: 0;
+  margin-left: 10px;
+  width: 40px;
+  background: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  border-radius: 100%;
+  cursor: pointer;
+  @media #{$sm-layout} {
+    margin-left: 5px;
+  }
+
+  a{
+    color: #ffffff;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 100%;
+
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+
+      a {
+        display: block;
+        position: relative;
+        z-index: 2;
+        background: var(--color-secondary);
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+
+        img {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        &.active {
+          display: none;
+        }
+      }
+    }
+  }
+}

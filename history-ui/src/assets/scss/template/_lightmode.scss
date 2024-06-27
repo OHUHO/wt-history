@@ -1,0 +1,526 @@
+/*-------------------------
+    Darkmode Styles
+---------------------------*/
+.rn-back-top i {
+  transition: 0.3s;
+}
+
+.rn-back-top:hover i {
+  color: var(--color-primary) !important;
+}
+
+// Light Style
+body {
+  &.active-light-mode {
+    background-color: var(--color-white);
+    color: #65676b;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    .social-default li a,
+    .rbt-single-widget .title,
+    .rbt-single-widget.widget_recent_entries .inner a,
+    .tagcloud a,
+    .wp-block-tag-cloud a,
+    .rwt-portfolio-details .content-left .single-list-wrapper .single-list label,
+    .blog-details-content .category-meta span.text,
+    .demo-slider-area.slider-style-1 .inner .title,
+    .rn-back-top svg,
+    .popup-mobile-menu .inner .header-top .close-menu .close-button,
+    .footer-style-default .footer-top .rn-footer-widget .title,
+    .rn-call-to-action.style-8 .title,
+    .rn-newsletter-default .newsletter-section-title .title,
+    .rn-default-tab .tab-button .tabs__tab .nav-link {
+      color: #181818;
+    }
+
+    .rn-default-tab .tab-button .tabs__tab .nav-link.active,
+    .slider-style-3 .thumbnail::after {
+      background: #f5f8fa;
+    }
+
+
+    .slider-style-8 .inner a.btn-default.btn-border,
+    .slider-style-8 .inner button.btn-default.btn-border {
+      border-color: #d8d8d8;
+      color: #65676b;
+    }
+
+    .rn-slick-arrow button.slick-arrow {
+      border: 2px solid #d8d8d8;
+      color: #65676b;
+    }
+
+    .rn-slick-arrow.testimonial-activation button.slick-arrow.prev-arrow::before,
+    .rn-slick-arrow.testimonial-activation button.slick-arrow.next-arrow::before {
+      filter: brightness(0);
+    }
+
+    .rn-slick-arrow button.slick-arrow:hover {
+      border-color: transparent !important;
+    }
+
+
+    .rn-slick-arrow.testimonial-activation button.slick-arrow.prev-arrow:hover::before,
+    .rn-slick-arrow.testimonial-activation button.slick-arrow.next-arrow:hover::before {
+      filter: brightness(1);
+    }
+
+    .slider-style-8 .inner a.btn-default.btn-border:hover,
+    .slider-style-8 .inner button.btn-default.btn-border:hover {
+      color: #fff;
+      border-color: transparent;
+    }
+
+    .slider-style-1.banner-company .inner .list-icon li .icon {
+      background-color: #f5f8fa !important;
+    }
+
+    .single-demo .thumbnail .image {
+      display: none;
+    }
+
+    .mainmenu-nav .mainmenu li.has-droupdown .submenu li a.active {
+      background: #d8d8d8;
+    }
+
+    .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item li a:hover,
+    .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item li a.active {
+      background: #d8d8d8;
+    }
+
+    p,
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    textarea,
+    .breadcrumb-inner ul.page-list li a,
+    .rn-address .inner p a,
+    .error-inner .description,
+    .rbt-single-widget.widget_recent_comments ul li a,
+    .rbt-single-widget.widget_recent_entries ul li a,
+    .rbt-single-widget.widget_archive ul li a,
+    .rbt-single-widget.widget_categories ul li a,
+    .rbt-single-widget.widget_meta ul li a,
+    .rbt-single-widget.widget_pages ul li a,
+    .rbt-single-widget.widget_nav_menu ul li a,
+    .rbt-single-widget.widget_recent_entries .inner span,
+    .rbt-single-widget.widget_recent_comments ul li span,
+    .rbt-single-widget.widget_recent_entries ul li span,
+    .rbt-single-widget.widget_archive ul li span,
+    .rbt-single-widget.widget_categories ul li span,
+    .rbt-single-widget.widget_meta ul li span,
+    .rbt-single-widget.widget_pages ul li span,
+    .rbt-single-widget.widget_nav_menu ul li span,
+    .post-page-banner .rn-meta-list li a,
+    .post-page-banner .rn-meta-list li,
+    .breadcrumb-inner ul.page-list li.rn-breadcrumb-item.active,
+    .slider-style-1.bg-transparent .inner .subtitle,
+    .slider-style-1.bg-transparent .inner .description,
+    .popup-mobile-menu .mainmenu li a,
+    .footer-style-default .footer-top .rn-footer-widget .footer-link li a,
+    .footer-style-default .footer-top .rn-footer-widget .subtitle,
+    .rn-call-to-action.style-8 .content .subtitle,
+    .rn-newsletter-default .newsletter-section-title .description,
+    .slider-style-5 .inner .subtitle,
+    .slider-style-5 .inner .title,
+    .single-progress .title,
+    .radial-progress .circle-text span.count,
+    .radial-progress .circle-text span.count::after,
+    .radial-progress-single .circle-info .subtitle {
+      color: #65676b;
+    }
+
+    .header-transparent.sticky .mainmenu-nav .mainmenu > li > a,
+    .clltoaction-style-default.style-7 .content .subtitle,
+    .copyright-style-one .ft-menu li a,
+    .footer-style-default .footer-top .rn-footer-widget .text-big {
+      color: #65676b;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .rn-accordion-style.rn-accordion-02 .card .card-header,
+    .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item,
+    .breadcarumb-style-1,
+    .rn-accordion-style.rn-accordion-03 .card .card-header,
+    .rn-accordion-style.rn-accordion-04 .card,
+    .rn-pricing .pricing-table-inner,
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="number"],
+    input[type="tel"],
+    textarea,
+    .rbt-single-widget,
+    .rbt-single-widget.widget_recent_comments ul li + li,
+    .rbt-single-widget.widget_recent_entries ul li + li,
+    .rbt-single-widget.widget_archive ul li + li,
+    .rbt-single-widget.widget_categories ul li + li,
+    .rbt-single-widget.widget_meta ul li + li,
+    .rbt-single-widget.widget_pages ul li + li,
+    .rbt-single-widget.widget_nav_menu ul li + li,
+    .tagcloud a,
+    .wp-block-tag-cloud a,
+    .section-title-2 .title,
+    .popup-mobile-menu .mainmenu li + li,
+    .clltoaction-style-default.style-7 .content-wrapper,
+    .copyright-style-one,
+    .footer-style-default .newsletter-form .form-group input,
+    .newsletter-area .border-top-bottom {
+      border-color: #00000024;
+    }
+
+    .service.service__style--1.with-working-process .line {
+      background-color: #00000024;
+      width: 83%;
+    }
+
+    .mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover {
+      background: #d8d8d8;
+    }
+
+    .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item li a:hover {
+      background: #d8d8d8;
+      color: var(--color-primary);
+    }
+
+    .btn-read-more span::after {
+      background: #00000024;
+    }
+
+    .breadcrumb-inner ul.page-list li a:hover,
+    .rn-address .inner p a:hover,
+    .post-page-banner .rn-meta-list li a:hover,
+    .header-top-bar .header-left p a:hover {
+      color: var(--color-primary);
+    }
+
+    .social-default li a:hover,
+    .tagcloud a:hover,
+    .wp-block-tag-cloud a:hover,
+    .header-top-news .btn-read-more span {
+      color: var(--color-white);
+    }
+
+    .tagcloud a:hover,
+    .wp-block-tag-cloud a:hover {
+      border-color: var(--color-primary);
+    }
+
+    a.btn-default.text-underline,
+    button.btn-default.text-underline {
+      border-color: #181818;
+      color: #181818;
+    }
+
+    .single-demo .thumbnail .image-active-light-mode {
+      display: block;
+    }
+
+    .single-demo .thumbnail .image {
+      display: block;
+    }
+
+    .footer-style-default .social-default li a,
+    .copyright-style-one .social-default.color-lessdark li a,
+    .rn-newsletter-default .rn-newsletter .form-group input {
+      background: #fff;
+    }
+
+    .copyright-style-one .ft-menu li + li::after {
+      background: #c5c1c1;
+    }
+
+    .copyright-style-one .ft-menu li a:hover,
+    .footer-style-default .footer-top .rn-footer-widget .footer-link li a:hover {
+      color: var(--color-primary);
+    }
+
+    .header-transparent-with-topbar .header-top-bar,
+    .header-transparent-with-topbar .header-default {
+      background: transparent;
+    }
+
+    [class*=col]:nth-child(2) .counter-style-2.color-variation .count-number {
+      background-color: #f9f5f5;
+    }
+
+    [class*=col]:nth-child(3) .counter-style-2.color-variation .count-number {
+      background-color: #eef2f3;
+    }
+
+    .service-wrapper > [class*=col]:nth-child(4) .service.service__style--1.icon-circle-style .icon {
+      background-color: #d6bbcb;
+    }
+
+    .logo a img.logo-light {
+      display: none;
+    }
+
+    .rn-back-top i {
+      color: #333;
+    }
+
+  }
+}
+
+body.active-light-mode .service.service__style--1.icon-circle-style .icon {
+  background-color: #059dff0f;
+}
+
+body.active-light-mode .service-wrapper > [class*=col]:nth-child(2) .service.service__style--1.icon-circle-style .icon {
+  background-color: #fb53431a;
+}
+
+body.active-light-mode .service-wrapper > [class*=col]:nth-child(3) .service.service__style--1.icon-circle-style .icon {
+  background-color: #6549d51f;
+}
+
+body.active-light-mode .timeline-dot::after {
+  background: radial-gradient(50% 50% at 50% 50%, #f5f8fa 48.96%, #f5f8fa 100%);
+}
+
+
+body.active-light-mode .header-top-bar {
+  background-color: var(--color-white);
+}
+
+body.active-light-mode .single-timeline .single-content,
+body.active-light-mode .rn-card,
+body.active-light-mode .clltoaction-style-default.style-5 .content-wrapper,
+body.active-light-mode .header-default,
+body.active-light-mode .mainmenu-nav .mainmenu li.has-droupdown .submenu,
+body.active-light-mode .service.gallery-style,
+body.active-light-mode .rn-box-card .inner,
+body.active-light-mode .team-style-default .inner,
+body.active-light-mode .rn-accordion-style .card,
+body.active-light-mode .section-title .subtitle,
+body.active-light-mode .card-box.card-style-1,
+body.active-light-mode .list-icon li .icon,
+body.active-light-mode .counter-style-2 .count-number,
+body.active-light-mode .rn-pricing.style-2 .pricing-table-inner,
+body.active-light-mode .rn-default-tab .rn-tab-content,
+body.active-light-mode .rn-default-tab .tab-button .react-tabs__tab.react-tabs__tab--selected,
+body.active-light-mode .advance-tab-button-1 .tab-button-list .tab-button::before,
+body.active-light-mode .advance-pricing .pricing-left,
+body.active-light-mode .rn-pricing.style-5 .pricing-table-inner,
+body.active-light-mode .about-style-5 .about-wrapper,
+body.active-light-mode .rn-sub-badge,
+body.active-light-mode .about-style-6 .wrapper::after,
+body.active-light-mode .box-grid-layout .rwt-card,
+body.active-light-mode .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper,
+body.active-light-mode .social-default li a,
+body.active-light-mode .clltoaction-style-default.style-4 .content-wrapper,
+body.active-light-mode .rn-address,
+body.active-light-mode .rbt-single-widget .title,
+body.active-light-mode .frame-image,
+body.active-light-mode .rn-back-top,
+body.active-light-mode .popup-mobile-menu .inner,
+body.active-light-mode .rn-call-to-action.style-8,
+body.active-light-mode .bg-overlay-solid::before {
+  background: #f5f8fa;
+}
+
+body.active-light-mode .rn-header.sticky {
+  background: #f5f8fa !important;
+}
+
+
+body.active-light-mode .bg-color-blackest {
+  background: #f5f8fa !important;
+}
+
+body.active-light-mode .footer-style-default,
+body.active-light-mode .copyright-style-one {
+  background: #f5f8fa;
+}
+
+body.active-light-mode .slider-style-2 .list-icon li .icon {
+  background: var(--color-blackest);
+}
+
+body.active-light-mode .rn-pricing .pricing-table-inner::before,
+body.active-light-mode .rn-timeline-single.dark-line .rn-timeline .progress-dot .dot-level,
+body.active-light-mode .rn-timeline-single.dark-line .rn-timeline .progress-line .line-inner,
+body.active-light-mode .card-style-default.testimonial-style-one .inner .thumbnail::after,
+body.active-light-mode .advance-pricing,
+body.active-light-mode .rn-pricing.style-5 .pricing-table-inner .pricing,
+body.active-light-mode .popup-mobile-menu .inner .header-top .close-menu .close-button,
+body.active-light-mode .hamberger-button {
+  background: #d8d8d8;
+}
+
+body.active-light-mode .single-demo {
+  background: #e9f8fe;
+}
+
+
+body.active-light-mode .rn-accordion-style .card .card-body,
+body.active-light-mode .brand-style-1 li {
+  border-color: #d8d8d8;
+}
+
+body.active-light-mode hr {
+  border-top: 1px solid #00000024;
+}
+
+body.active-light-mode .rn-card {
+  border-color: #f5f8fa;
+}
+
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-header,
+body.active-light-mode .rn-pricing .pricing-table-inner .pricing-header {
+  border-color: #0000000a;
+}
+
+body.active-light-mode .advance-tab-button-1 .tab-button-list .tab-button::after {
+  border-left: 20px solid #f5f8fa;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+body.active-light-mode a.btn-default.btn-border,
+body.active-light-mode button.btn-default.btn-border {
+  border-color: #00000024;
+  color: #181818;
+}
+
+body.active-light-mode a.btn-default.btn-border:hover,
+body.active-light-mode button.btn-default.btn-border:hover {
+  border-color: var(--color-secondary);
+  color: #fff;
+}
+
+body.active-light-mode .rn-box-card .inner .thumbnail,
+body.active-light-mode .team-style-default .inner .thumbnail {
+  border: 6px solid var(--color-white);
+}
+
+
+body.active-light-mode .filter-button-default button,
+body.active-light-mode .testimonial-style-two .content .client-info .subtitle,
+body.active-light-mode .single-timeline .single-content .inner .content .date-of-timeline,
+body.active-light-mode .service.gallery-style .content p,
+body.active-light-mode .rn-box-card .inner .social-icon li a,
+body.active-light-mode .team-style-default .inner .social-icon li a,
+body.active-light-mode .rn-accordion-style .card .card-body,
+body.active-light-mode .mainmenu-nav .mainmenu > li > a,
+body.active-light-mode .mainmenu-nav .mainmenu li.has-droupdown .submenu li a,
+body.active-light-mode .list-icon li,
+body.active-light-mode ul li,
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-body ul.list-style--1 li,
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-body ul.list-style--1 li svg,
+body.active-light-mode .advance-tab-button-1 .tab-button-list .tab-button .title,
+body.active-light-mode .advance-pricing .pricing-left .subtitle,
+body.active-light-mode .header-top-bar .header-left p a,
+body.active-light-mode .header-top-bar .header-right .address-content p a,
+body.active-light-mode .header-top-bar .social-default.icon-naked li a,
+body.active-light-mode .progress-info .title,
+body.active-light-mode .progress-info span.progress-number,
+body.active-light-mode .mainmenu-nav .mainmenu li.with-megamenu .rn-megamenu .wrapper .mega-menu-item li a,
+body.active-light-mode .clltoaction-style-default.style-4 .content .subtitle {
+  color: #65676b;
+}
+
+body.active-light-mode .card-box.card-style-1 .inner .content .description {
+  color: #65676b !important;
+}
+
+body.active-light-mode .clltoaction-style-default.style-5 .content .subtitle,
+body.active-light-mode .rn-accordion-style .card .card-header button,
+body.active-light-mode .counter-style-2 .count-number,
+body.active-light-mode .rn-pricing .pricing-table-inner .pricing-header .pricing span.price,
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-header .title,
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-header .pricing span.currency,
+body.active-light-mode .rn-pricing.active .pricing-table-inner .pricing-header .pricing span.subtitle,
+body.active-light-mode .rn-pricing .pricing-table-inner .pricing-header .pricing span.subtitle,
+body.active-light-mode .rn-default-tab .tab-button .rn-tab-button button,
+body.active-light-mode .rn-pricing .pricing-table-inner .pricing-header .pricing span.currency,
+body.active-light-mode .card-style-default.testimonial-style-one .inner .thumbnail::after,
+body.active-light-mode .clltoaction-style-default.style-6 .content .title,
+body.active-light-mode .rn-splite-style .split-inner .title,
+body.active-light-mode .advance-tab-button-1 .tab-button-list .react-tabs__tab--selected .tab-button .title,
+body.active-light-mode .advance-pricing .pricing-left .price-wrapper .price-amount,
+body.active-light-mode .btn-read-more span,
+body.active-light-mode .section-title-2 .title,
+body.active-light-mode .box-grid-layout .rwt-card .inner .content .title,
+body.active-light-mode .clltoaction-style-default.style-5 .content .title,
+body.active-light-mode .clltoaction-style-default.style-4 .content .title,
+body.active-light-mode .hamberger-button {
+  color: #181818;
+}
+
+body.active-light-mode .about-style-6 .maintitle {
+  color: #181818 !important;
+}
+
+body.active-light-mode .slider-style-1 .inner .title {
+  color: var(--color-white);
+}
+
+body.active-light-mode .testimonial-style-two .content::after {
+  color: #f5f8fa;
+}
+
+body.active-light-mode .header-transparent .mainmenu-nav .mainmenu > li > a {
+  color: var(--color-body);
+}
+
+
+body.active-light-mode .header-top-bar .header-right .address-content p a:hover {
+  color: var(--color-primary);
+}
+
+body.active-light-mode .rn-pricing .pricing-table-inner .pricing-header .pricing span.currency {
+  opacity: 0.8;
+}
+
+body.active-light-mode .mainmenu-nav .mainmenu li.has-droupdown .submenu li a:hover,
+body.active-light-mode .btn-read-more:hover span {
+  color: var(--color-primary);
+}
+
+body.active-light-mode .CircularProgressbar .CircularProgressbar-text {
+  fill: #181818 !important;
+}
+
+body.active-light-mode .logo-active-light-mode {
+  display: none;
+}
+
+body.active-light-mode .logo-dark {
+  display: block;
+}
+
+body.active-light-mode .slider-area.bg-transparent .inner a.btn-default.btn-border,
+body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn-border {
+  border-color: #00000024;
+  color: #181818;
+}
+
+body.active-light-mode .slider-area.bg-transparent .inner a.btn-default.btn-border:hover,
+body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn-border:hover {
+  color: var(--color-white);
+}
+
+body.active-light-mode .rn-accordion-style .card .card-header button .collapse-icon:before,
+body.active-light-mode .rn-accordion-style .card .card-header button .collapse-icon:after {
+  background-color: #181818;
+}
+
+// body.light .copyright-style-one, body.light .footer-style-default {
+//     background: #f5f8fa;
+// }

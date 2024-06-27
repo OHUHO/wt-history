@@ -1,0 +1,60 @@
+.article-area{
+	padding-top: 20px!important;
+}
+.write-header-left{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	h6{
+		padding: 0;
+		margin: 0;
+	}
+}
+.write-header-right{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.write{
+	pre{
+		//margin: 0!important;
+		margin-top: 5px!important;
+	}
+}
+
+.tiptap-wrapper{
+	.article-title{
+		input{
+			font-size: 18px;
+		}
+	}
+}
+.article-cover{
+
+	width: 100%;
+	.image-container[data-v-10e59822]{
+		background-color: unset!important;
+		width: 100%!important;
+	}
+}
+
+
+.write-footer{
+
+}
+.textarea {
+	min-height: 188px;
+}
+.dynasty-check{
+	flex-wrap: wrap;
+	align-items: center;
+	a{
+		margin-right: 10px;
+	}
+}
+

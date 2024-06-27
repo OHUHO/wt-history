@@ -1,0 +1,72 @@
+.center-wrapper{
+	padding-top: 20px!important;
+
+	.center-userinfo{
+		display: flex;
+		flex-direction: column;
+
+		.userinfo-username-avatar{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin-bottom: 20px;
+
+			img{
+				width: 90px;
+				height: 90px;
+				border-radius: 50%;
+				margin-right: 20px;
+			}
+			h4{
+				padding: 0;
+				margin: 0;
+			}
+			span{
+				font-size: 14px;
+			}
+		}
+		.userinfo-all{
+			//margin-top: 20px;
+
+			.userinfo-username,
+			.userinfo-avatar{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				margin-top: 20px;
+
+				h5{
+					padding: 0;
+					margin: 0 14px 0 0;
+				}
+				.rnform-group{
+					margin-bottom: 0;
+				}
+				input,.upload{
+					width: 500px;
+				}
+				// 上传框样式
+				.image-container[data-v-10e59822]{
+					background-color: unset!important;
+					width: 100%!important;
+				}
+			}
+		}
+
+		.update-userinfo-btn{
+			margin-top: 20px;
+		}
+	}
+
+	.publish-block{
+		margin-top: -20px;
+	}
+
+	.center-info{
+		.info-comment{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+}

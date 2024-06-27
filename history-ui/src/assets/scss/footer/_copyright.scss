@@ -1,0 +1,59 @@
+/*--------------------------
+    Copyright Styles
+---------------------------*/
+
+// Copyright Style One 
+.copyright-style-one {
+  background: var(--color-darkest);
+  padding: 20px 0;
+  border-top: 1px solid var(--color-border);
+
+  .copyright-text {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .ft-menu {
+    padding: 0;
+    margin: 0 -10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    @media #{$sm-layout} {
+      justify-content: center;
+    }
+
+    li {
+      margin: 0;
+      padding: 0 10px;
+      position: relative;
+
+      & + li {
+        &::after {
+          position: absolute;
+          content: "";
+          height: 14px;
+          width: 1px;
+          background: var(--color-border);
+          left: -1px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &.variation-two {
+    background: var(--color-blackest);
+  }
+
+  &.no-border {
+    border-top: 0;
+  }
+}
+

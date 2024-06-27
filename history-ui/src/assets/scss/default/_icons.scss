@@ -1,0 +1,11 @@
+// SVG Icon
+i {
+  @for $i from 1 through 100 {
+    &.size-#{$i} {
+      svg {
+        width: #{$i}px !important;
+        height: #{$i}px !important;
+      }
+    }
+  }
+}

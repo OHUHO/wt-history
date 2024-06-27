@@ -1,0 +1,121 @@
+
+.clltoaction-style-default {
+    //opacity: 0.6;
+
+    @media #{$lg-layout} {
+        padding: 0 0;
+    }
+    @media #{$md-layout} {
+        padding: 0 0;
+    }
+    @media #{$sm-layout} {
+        padding: 0 0;
+    }
+
+    .inner {
+        p {
+            color: var(--color-white);
+        }
+    }
+    .subtitle {
+        color: #fff;
+        font-size: 24px;
+        line-height: 1.4;
+        margin: 0;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        opacity: 1;
+    }
+    .call-to-btn {
+        margin-top: 50px;
+    }
+    .content {
+        &.text-left {
+            .title {
+                &::before {
+                    left: 0;
+                    transform: none;
+                }
+            }
+            .subtitle {
+                padding: 0 16% 0 0;
+            }
+        }
+    }
+
+    &.style-dy {
+        padding: 0;
+        .content-wrapper {
+            padding: 14px 0;
+            border-bottom: 1px solid var(--color-border);
+        }
+        .content {
+            .dy-logo{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .subtitle {
+                font-size: 16px;
+                color: var(--color-white);
+                max-width: 450px;
+                line-height: 30px;
+                margin-bottom: 0;
+                margin-top: 13px;
+                padding: 0;
+                opacity: 1;
+            }
+        }
+        .call-to-btn {
+            margin-top: 0;
+            @media #{$md-layout} {
+                margin-top: 20px;
+            }
+            @media #{$sm-layout} {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+.theme-shape {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+    &::before {
+        position: absolute;
+        left: -250px;
+        top: 250px;
+        right: auto;
+        bottom: auto;
+        z-index: -1;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000px;
+        background-image: linear-gradient(45deg, var(--color-primary), var(--color-light-green));
+        opacity: 0.2;
+        filter: blur(100px);
+        content: "";
+    }
+
+    &::after {
+        position: absolute;
+        z-index: -1;
+        width: 500px;
+        height: 500px;
+        border-radius: 1000px;
+        opacity: 0.2;
+        filter: blur(100px);
+        content: "";
+        left: auto;
+        top: -250px;
+        right: -250px;
+        bottom: auto;
+        background-image: linear-gradient(45deg, var(--color-secondary), var(--color-tertiary));
+
+    }
+}

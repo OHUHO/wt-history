@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.history.mapper.GoodMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.history.entity.Good">
+        <id column="good_id" property="goodId" />
+        <result column="user_id" property="userId" />
+        <result column="article_id" property="articleId" />
+        <result column="comment_id" property="commentId" />
+        <result column="is_delete" property="isDelete" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        good_id, user_id, article_id, comment_id, is_delete, create_time
+    </sql>
+
+</mapper>

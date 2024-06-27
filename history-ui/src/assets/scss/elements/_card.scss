@@ -1,0 +1,83 @@
+
+.card-style {
+    margin-right: 20px;
+    height: 290px;
+    .card-inner {
+        img {
+            height: 290px;
+            border-radius: var(--radius);
+            position: relative;
+        }
+        .content {
+            position: absolute;
+            bottom: 0;
+            padding: 16px;
+            width: 100%;
+            transition: all 0.3s;
+
+            .card-info {
+                padding: 16px;
+                background-color: rgba(58,58,58,0.6);
+                border-radius: var(--radius-small);
+            }
+
+            .title {
+                font-size: 17px;
+                line-height: 25px;
+                color: var(--color-heading);
+                margin-bottom: 4px;
+
+                // 文字换行
+                //word-break:normal;
+                //width: 100%;
+                //display:block;
+                //word-wrap : break-word ;
+                white-space:pre-wrap;
+                overflow: hidden ;
+
+                // 查过指定行 省略
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+            }
+
+            .card-description {
+                font-size: 14px;
+                color: #ADADAD;
+                letter-spacing: 0.5px;
+
+                // 文字换行
+                //word-break:normal;
+                //width: 100%;
+                //display:block;
+                //word-wrap : break-word ;
+                white-space:pre-wrap;
+                overflow: hidden ;
+
+                // 查过指定行 省略
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 8;
+                text-overflow: ellipsis;
+                -webkit-box-orient: vertical;
+            }
+
+        }
+
+    }
+
+    &:hover {
+        .card-inner {
+            .content {
+                top: 0;
+            }
+            img{
+                opacity: 0.4;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,102 @@
+.contact-form-1 {
+    .form-group {
+        input {
+            height: 70px;
+            padding: 0 20px;
+        }
+        textarea {
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+    }
+}
+
+
+.contact-address-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.rn-address {
+    margin-top: 30px;
+    padding: 40px;
+    border-radius: 10px;
+    padding-top: 40px;
+    background: var(--color-blackest);
+    padding-bottom: 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+
+    @media #{$lg-layout} {
+        padding: 30px 20px;
+    }
+    @media #{$md-layout} {
+        padding: 30px 20px;
+    }
+    @media #{$sm-layout} {
+        padding: 30px 20px;
+    }
+
+    .icon {
+        color: var(--color-primary);
+        border-radius: 100%;
+        font-size: 40px;
+        display: inline-block;
+        margin-bottom: 17px;
+        line-height: 6px;
+    }
+    .inner {
+        h4 {
+            &.title {
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 0;
+            @media #{$lg-layout} {
+                font-size: 16px;
+            }
+            @media #{$md-layout} {
+                font-size: 16px;
+            }
+            @media #{$sm-layout} {
+                font-size: 16px;
+            }
+            br {
+
+                @media #{$lg-layout} {
+                    display: none;
+                }
+
+                @media #{$md-layout} {
+                    display: none;
+                }
+
+                @media #{$sm-layout} {
+                    display: none;
+                }
+            }
+            a {
+                color: var(--color-body);
+                @extend %transition;
+                &:hover {
+                    color: var(--color-primary);
+                }
+            }
+        }
+    }
+    &:hover {
+        transform: translateY(-5px)
+    }
+}
+
+
+
+
+
+
+

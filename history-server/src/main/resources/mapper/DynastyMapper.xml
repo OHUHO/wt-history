@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.history.mapper.DynastyMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.history.entity.Dynasty">
+        <id column="dynasty_id" property="dynastyId" />
+        <result column="dynasty_name" property="dynastyName" />
+        <result column="dynasty_describe" property="dynastyDescribe" />
+        <result column="dynasty_cover" property="dynastyCover" />
+        <result column="dynasty_period" property="dynastyPeriod" />
+        <result column="dynasty_map" property="dynastyMap" />
+        <result column="is_alive" property="isAlive" />
+        <result column="is_delete" property="isDelete" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        dynasty_id, dynasty_name, dynasty_describe, dynasty_cover, dynasty_period, dynasty_map, is_alive, is_delete, create_time
+    </sql>
+
+</mapper>

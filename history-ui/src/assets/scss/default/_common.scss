@@ -1,0 +1,427 @@
+/*======================== 
+    Common Style Css
+==========================*/
+
+/* Theme Gradient */
+.theme-gradient {
+    background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 98% / 200% 100%;
+    text-transform: capitalize;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-theme-gradient {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, var(--color-primary-lightest) 10%, var(--color-primary-alt) 50%, var(--color-tertiary-alt) 90%);
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .theme-gradient {
+        color: var(--color-secondary);
+        background: none !important;
+    }
+}
+
+/* Heading Font  */
+.h1 {
+    font-size: var(--h1) !important
+}
+
+.h2 {
+    font-size: var(--h2) !important
+}
+
+.h3 {
+    font-size: var(--h3) !important
+}
+
+.h4 {
+    font-size: var(--h4) !important
+}
+
+.h5 {
+    font-size: var(--h5) !important
+}
+
+.h6 {
+    font-size: var(--h6) !important
+}
+
+
+
+/* Text Color  */
+
+.color-primary {
+    @extend %color-primary;
+}
+
+.color-primary {
+    @extend %color-primary;
+}
+
+.color-primary-light {
+    @extend %color-primary-light;
+}
+
+.color-primary-alt {
+    @extend %color-primary-alt;
+}
+
+.color-secondary {
+    @extend %color-secondary;
+}
+
+.color-tertiary {
+    @extend %color-tertiary;
+}
+
+.color-tertiary-alt {
+    @extend %color-tertiary-alt;
+}
+
+.color-light-green {
+    @extend %color-light-green;
+}
+
+.color-pink {
+    @extend %color-pink;
+}
+
+.color-primary-darker {
+    @extend %color-primary-darker;
+}
+
+.color-secondary-darker {
+    @extend %color-secondary-darker;
+}
+
+.color-light-green-darker {
+    @extend %color-light-green-darker;
+}
+
+.color-pink-darker {
+    @extend %color-pink-darker;
+}
+
+.color-heading {
+    @extend %color-heading;
+}
+
+.color-body {
+    @extend %color-body;
+}
+
+.color-dark {
+    @extend %color-dark;
+}
+
+.color-darker {
+    @extend %color-darker;
+}
+
+.color-darkest {
+    @extend %color-darkest;
+}
+
+.color-black {
+    @extend %color-black;
+}
+
+.color-blacker {
+    @extend %color-blacker;
+}
+
+.color-blackest {
+    @extend %color-blackest;
+}
+
+.color-border {
+    @extend %color-border;
+}
+
+.color-gray {
+    @extend %color-gray;
+}
+
+.color-midgray {
+    @extend %color-midgray;
+}
+
+.color-light {
+    @extend %color-light;
+}
+
+.color-lighter {
+    @extend %color-lighter;
+}
+
+.color-lightest {
+    @extend %color-lightest;
+}
+
+.color-white {
+    @extend %color-white;
+}
+
+
+
+
+//===== BG Ncc Colors =====//
+
+.bg-primary-color {
+    background: var(--color-primary);
+}
+
+.bg-secondary-color {
+    background: var(--color-secondary)
+}
+
+.bg-tertiary-color {
+    background-color: var(--color-tertiary)
+}
+
+.bg-color-primary {
+    background-color: var(--color-primary) !important;
+}
+
+.bg-color-primary-light {
+    background-color: var(--color-primary-light) !important;
+}
+
+.bg-color-primary-alt {
+    background-color: var(--color-primary-alt) !important;
+}
+
+.bg-color-secondary {
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-color-tertiary {
+    background-color: var(--color-tertiary) !important;
+}
+
+.bg-color-tertiary-alt {
+    background-color: var(--color-tertiary-alt) !important;
+}
+
+.bg-color-light-green {
+    background-color: var(--color-light-green) !important;
+}
+
+.bg-color-pink {
+    background-color: var(--color-pink) !important;
+}
+
+.bg-color-primary-darker {
+    background-color: var(--color-primary-darker) !important;
+}
+
+.bg-color-secondary-darker {
+    background-color: var(--color-secondary-darker) !important;
+}
+
+.bg-color-light-green-darker {
+    background-color: var(--color-light-green-darker) !important;
+}
+
+.bg-color-pink-darker {
+    background-color: var(--color-pink-darker) !important;
+}
+
+.bg-color-heading {
+    background-color: var(--color-heading) !important;
+}
+
+.bg-color-body {
+    background-color: var(--color-body) !important;
+}
+
+.bg-color-dark {
+    background-color: var(--color-dark) !important;
+}
+
+.bg-color-darker {
+    background-color: var(--color-darker) !important;
+}
+
+.bg-color-darkest {
+    background-color: var(--color-darkest) !important;
+}
+
+.bg-color-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-color-blacker {
+    background-color: var(--color-blacker) !important;
+}
+
+.bg-color-blackest {
+    background-color: var(--color-blackest) !important;
+}
+
+.bg-color-border {
+    background-color: var(--color-border) !important;
+}
+
+.bg-color-gray {
+    background-color: var(--color-gray) !important;
+}
+
+.bg-color-midgray {
+    background-color: var(--color-midgray) !important;
+}
+
+.bg-color-light {
+    background-color: var(--color-light) !important;
+}
+
+.bg-color-lighter {
+    background-color: var(--color-lighter) !important;
+}
+
+.bg-color-lightest {
+    background-color: var(--color-lightest) !important;
+}
+
+.bg-color-white {
+    background-color: var(--color-white) !important;
+}
+
+
+
+
+/* Radius */
+.radius-small {
+    @extend %radius-small;
+}
+
+.radius {
+    @extend %radius;
+}
+
+.radius-big {
+    @extend %radius-big;
+}
+
+
+/* Font Weight */
+
+.w-300 {
+    @extend %w-300;
+}
+
+.w-400 {
+    @extend %w-400;
+}
+
+.w-500 {
+    @extend %w-500;
+}
+
+.w-600 {
+    @extend %w-600;
+}
+
+.w-700 {
+    @extend %w-700;
+}
+
+.w-800 {
+    @extend %w-800;
+}
+
+.w-900 {
+    @extend %w-900;
+}
+
+
+
+/* Shadows */
+
+.shadow-primary {
+    @extend %shadow-primary;
+}
+
+.shadow-light {
+    @extend %shadow-light;
+}
+
+.shadow-lighter {
+    @extend %shadow-lighter;
+}
+
+
+
+/* Others  */
+.liststyle {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.radius {
+    @extend %radius;
+}
+
+%transition-transform {
+    transition: var(--transition-transform);
+}
+
+.transition-transform {
+    @extend %transition-transform;
+}
+
+
+.list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+        @media #{$sm-layout} {
+            font-size: 16px;
+        }
+        .icon {
+            width: 30px;
+            background-color: var(--color-blackest);
+            height: 30px;
+            border-radius: 100%;
+            display: inline-block;
+            position: relative;
+            margin-right: 9px;
+            min-width: 30px;
+            min-height: 30px;
+            &.background-transparent {
+                background-color: transparent;
+            }
+            i {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+.rn-sub-badge {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: var(--color-blackest);
+    box-shadow: var(--shadow-lighter);
+}
+
+
+
