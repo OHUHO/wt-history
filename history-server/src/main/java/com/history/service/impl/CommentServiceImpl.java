@@ -152,7 +152,7 @@ public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> impl
         List<Comment> comments = commentMapper.selectList(
                 new LambdaQueryWrapper<Comment>()
                         .eq(Comment::getArticleId, articleId)
-                        .eq(Comment::getIsAlive,0)
+                        // .eq(Comment::getIsAlive,0)
         );
         return ResultBean.success("获取评论成功！",comments);
     }

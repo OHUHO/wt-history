@@ -9,7 +9,7 @@
                                 <router-link to="#">中国历史平台</router-link>
                             </li>
                             <li>
-                                <router-link to="#">作者：Xxx</router-link>
+                                <router-link to="#">作者：京茶吉鹿</router-link>
                             </li>
                         </ul>
                     </div>
